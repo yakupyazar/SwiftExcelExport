@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10ABB28A282BD22A002BF17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB289282BD22A002BF17D /* AppDelegate.swift */; };
+		10ABB28C282BD22A002BF17D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB28B282BD22A002BF17D /* SceneDelegate.swift */; };
+		10ABB28E282BD22A002BF17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB28D282BD22A002BF17D /* ViewController.swift */; };
+		10ABB291282BD22A002BF17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ABB28F282BD22A002BF17D /* Main.storyboard */; };
+		10ABB294282BD22A002BF17D /* ExcelExportSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB292282BD22A002BF17D /* ExcelExportSample.xcdatamodeld */; };
+		10ABB296282BD22C002BF17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ABB295282BD22C002BF17D /* Assets.xcassets */; };
+		10ABB299282BD22C002BF17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ABB297282BD22C002BF17D /* LaunchScreen.storyboard */; };
+		10ABB2A1282BE7C3002BF17D /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB2A0282BE7C3002BF17D /* ExportService.swift */; };
+		10ABB2A3282BE8D4002BF17D /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABB2A2282BE8D4002BF17D /* Fruit.swift */; };
+		3A7FD8EEE4BEAB54D0E86768 /* Pods_ExcelExportSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B634B92CDDEAA3D0EED4119 /* Pods_ExcelExportSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10ABB286282BD22A002BF17D /* ExcelExportSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelExportSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ABB289282BD22A002BF17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10ABB28B282BD22A002BF17D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10ABB28D282BD22A002BF17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10ABB290282BD22A002BF17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ABB293282BD22A002BF17D /* ExcelExportSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExcelExportSample.xcdatamodel; sourceTree = "<group>"; };
+		10ABB295282BD22C002BF17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ABB298282BD22C002BF17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ABB29A282BD22C002BF17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ABB2A0282BE7C3002BF17D /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		10ABB2A2282BE8D4002BF17D /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		5B634B92CDDEAA3D0EED4119 /* Pods_ExcelExportSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelExportSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB660A0C754D16660724868 /* Pods-ExcelExportSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelExportSample.debug.xcconfig"; path = "Target Support Files/Pods-ExcelExportSample/Pods-ExcelExportSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F7081E24F84AA0E2827AC6 /* Pods-ExcelExportSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelExportSample.release.xcconfig"; path = "Target Support Files/Pods-ExcelExportSample/Pods-ExcelExportSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ABB283282BD22A002BF17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7FD8EEE4BEAB54D0E86768 /* Pods_ExcelExportSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ABB27D282BD22A002BF17D = {
+			isa = PBXGroup;
+			children = (
+				10ABB288282BD22A002BF17D /* ExcelExportSample */,
+				10ABB287282BD22A002BF17D /* Products */,
+				FF4CF3705231BD73BA5EAE82 /* Pods */,
+				95FB1C24A88FCBEAADAE5B3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10ABB287282BD22A002BF17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ABB286282BD22A002BF17D /* ExcelExportSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ABB288282BD22A002BF17D /* ExcelExportSample */ = {
+			isa = PBXGroup;
+			children = (
+				10ABB289282BD22A002BF17D /* AppDelegate.swift */,
+				10ABB28B282BD22A002BF17D /* SceneDelegate.swift */,
+				10ABB28D282BD22A002BF17D /* ViewController.swift */,
+				10ABB28F282BD22A002BF17D /* Main.storyboard */,
+				10ABB295282BD22C002BF17D /* Assets.xcassets */,
+				10ABB297282BD22C002BF17D /* LaunchScreen.storyboard */,
+				10ABB29A282BD22C002BF17D /* Info.plist */,
+				10ABB292282BD22A002BF17D /* ExcelExportSample.xcdatamodeld */,
+				10ABB2A0282BE7C3002BF17D /* ExportService.swift */,
+				10ABB2A2282BE8D4002BF17D /* Fruit.swift */,
+			);
+			path = ExcelExportSample;
+			sourceTree = "<group>";
+		};
+		95FB1C24A88FCBEAADAE5B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B634B92CDDEAA3D0EED4119 /* Pods_ExcelExportSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4CF3705231BD73BA5EAE82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACB660A0C754D16660724868 /* Pods-ExcelExportSample.debug.xcconfig */,
+				D4F7081E24F84AA0E2827AC6 /* Pods-ExcelExportSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ABB285282BD22A002BF17D /* ExcelExportSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ABB29D282BD22C002BF17D /* Build configuration list for PBXNativeTarget "ExcelExportSample" */;
+			buildPhases = (
+				C27467D3A6DE58486863E34F /* [CP] Check Pods Manifest.lock */,
+				10ABB282282BD22A002BF17D /* Sources */,
+				10ABB283282BD22A002BF17D /* Frameworks */,
+				10ABB284282BD22A002BF17D /* Resources */,
+				15A50E14E59A65CE76BDA148 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelExportSample;
+			productName = ExcelExportSample;
+			productReference = 10ABB286282BD22A002BF17D /* ExcelExportSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ABB27E282BD22A002BF17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					10ABB285282BD22A002BF17D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 10ABB281282BD22A002BF17D /* Build configuration list for PBXProject "ExcelExportSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ABB27D282BD22A002BF17D;
+			productRefGroup = 10ABB287282BD22A002BF17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ABB285282BD22A002BF17D /* ExcelExportSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ABB284282BD22A002BF17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ABB299282BD22C002BF17D /* LaunchScreen.storyboard in Resources */,
+				10ABB296282BD22C002BF17D /* Assets.xcassets in Resources */,
+				10ABB291282BD22A002BF17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A50E14E59A65CE76BDA148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExcelExportSample/Pods-ExcelExportSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExcelExportSample/Pods-ExcelExportSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExcelExportSample/Pods-ExcelExportSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27467D3A6DE58486863E34F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExcelExportSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ABB282282BD22A002BF17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ABB2A3282BE8D4002BF17D /* Fruit.swift in Sources */,
+				10ABB28E282BD22A002BF17D /* ViewController.swift in Sources */,
+				10ABB28A282BD22A002BF17D /* AppDelegate.swift in Sources */,
+				10ABB28C282BD22A002BF17D /* SceneDelegate.swift in Sources */,
+				10ABB294282BD22A002BF17D /* ExcelExportSample.xcdatamodeld in Sources */,
+				10ABB2A1282BE7C3002BF17D /* ExportService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10ABB28F282BD22A002BF17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ABB290282BD22A002BF17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ABB297282BD22C002BF17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ABB298282BD22C002BF17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ABB29B282BD22C002BF17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10ABB29C282BD22C002BF17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ABB29E282BD22C002BF17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB660A0C754D16660724868 /* Pods-ExcelExportSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExcelExportSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ExcelExportSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ABB29F282BD22C002BF17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F7081E24F84AA0E2827AC6 /* Pods-ExcelExportSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExcelExportSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ExcelExportSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ABB281282BD22A002BF17D /* Build configuration list for PBXProject "ExcelExportSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ABB29B282BD22C002BF17D /* Debug */,
+				10ABB29C282BD22C002BF17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ABB29D282BD22C002BF17D /* Build configuration list for PBXNativeTarget "ExcelExportSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ABB29E282BD22C002BF17D /* Debug */,
+				10ABB29F282BD22C002BF17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10ABB292282BD22A002BF17D /* ExcelExportSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10ABB293282BD22A002BF17D /* ExcelExportSample.xcdatamodel */,
+			);
+			currentVersion = 10ABB293282BD22A002BF17D /* ExcelExportSample.xcdatamodel */;
+			path = ExcelExportSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10ABB27E282BD22A002BF17D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ExcelExportSample {
+  umbrella header "Pods-ExcelExportSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
